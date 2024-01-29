@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Checkpoint 1</title>
+    <link rel="stylesheet" href="images/">
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+
+    <style>
+        .gridOne  {
+            width: 500px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gridTwo {
+            width: 500px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+        }
+
+        .gridThree {
+            width: 500px;
+            height: 300px;
+            background-color: gray;
+            display: grid;
+            grid-template-rows: 1fr 3fr;
+        }
+
+        
+        .gridFour {
+            width: 500px;
+            background-color: green;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        #gridFour-two {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .gridFive {
+            width: 500px;
+            background-color: lightgray;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .gridFive-two {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .gridFive-two img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gridSix {
+            font-family: "Honk", system-ui;
+            width: 500px;
+            background-color: lightgray;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+
+    </style>
+
+    <div class="gridOne">
+        <p>Hello World</p>
+        <p style="color: blue;">My Fantastic Content</p>
+    </div>
+
+    <div class="gridTwo">
+        <div class="gridTwo-one">
+            <p style="background-color: red;">fire</p>
+        </div>
+        <div class="gridTwo-two">
+            <p style="background-color: blue;">water</p>
+        </div>
+        <div class="gridTwo-three">
+            <p style="background-color: yellow;">air</p>
+        </div>
+    </div>
+
+    <div class="gridThree">
+        <div class="gridThree-one">
+            <p>welcome to the jungle</p>
+        </div>
+        <div class="gridThree-two">
+            <img style="height: 225px; width: 500px; object-fit: cover;" src="images/destiny.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="gridFour">
+        <div class="gridFour-one">
+            <p>i need more information</p>
+        </div>
+        <div id="gridFour-two">
+            <p>left information</p>
+            <p>right information</p>
+        </div>
+    </div>
+
+    <div class="gridFive">
+        <div class="gridFive-one">
+            <p>i need a picture</p>
+        </div>
+        <div class="gridFive-two">
+            <img src="images/lamp.jpg" alt="">
+            <img src="images/street.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="gridSix">
+        <div class="icon">
+            <i class="fa-solid fa-download"></i>
+        </div>
+        <p>Download Here</p>
+    </div>
+    
+</body>
+</html>
